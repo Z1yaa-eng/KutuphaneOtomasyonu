@@ -35,9 +35,9 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(240, 96);
+            this.textBox4.Location = new System.Drawing.Point(247, 96);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(200, 22);
+            this.textBox4.Size = new System.Drawing.Size(184, 22);
             this.textBox4.TabIndex = 47;
             // 
             // label1
@@ -53,6 +53,7 @@
             // 
             // button1
             // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.ForeColor = System.Drawing.Color.Navy;
             this.button1.Location = new System.Drawing.Point(75, 145);

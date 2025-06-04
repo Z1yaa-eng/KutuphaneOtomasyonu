@@ -103,17 +103,23 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(112, 65);
+            this.textBox2.BackColor = System.Drawing.Color.PowderBlue;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Location = new System.Drawing.Point(112, 45);
+            this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(130, 22);
+            this.textBox2.Size = new System.Drawing.Size(130, 42);
             this.textBox2.TabIndex = 37;
             this.textBox2.Text = "Soyad";
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.PowderBlue;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Location = new System.Drawing.Point(112, 3);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(130, 22);
+            this.textBox1.Size = new System.Drawing.Size(130, 36);
             this.textBox1.TabIndex = 36;
             this.textBox1.Text = "Ad";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);

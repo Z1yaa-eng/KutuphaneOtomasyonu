@@ -40,30 +40,12 @@ namespace KütüphaneOtomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            KullanıcıEkranı grşbtn = new KullanıcıEkranı();
+            ÇalışanEkranı grşbtn = new ÇalışanEkranı();
             grşbtn.Show();
-
-            string secilen = comboBox1.SelectedItem?.ToString();
-
-            if (secilen == "Ögrenci")
-            {
-                KullanıcıEkranı KE = new KullanıcıEkranı();
-                KE.Show();
-                this.Hide(); 
-            }
-            else
-            {
-                ÇalışanEkranı ÇE = new ÇalışanEkranı();
-                ÇE.Show();
-                this.Hide();
-
-            }
+          
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {

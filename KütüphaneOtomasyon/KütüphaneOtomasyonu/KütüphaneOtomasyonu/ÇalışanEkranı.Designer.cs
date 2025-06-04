@@ -65,7 +65,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Lavender;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(-9, 560);
+            this.button2.Location = new System.Drawing.Point(-9, 562);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(273, 33);
             this.button2.TabIndex = 35;
@@ -75,17 +75,23 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(103, 108);
+            this.textBox2.BackColor = System.Drawing.Color.PowderBlue;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Location = new System.Drawing.Point(103, 94);
+            this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(154, 22);
+            this.textBox2.Size = new System.Drawing.Size(137, 36);
             this.textBox2.TabIndex = 34;
             this.textBox2.Text = "Soyad";
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.PowderBlue;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Location = new System.Drawing.Point(103, 56);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(154, 22);
+            this.textBox1.Size = new System.Drawing.Size(137, 32);
             this.textBox1.TabIndex = 33;
             this.textBox1.Text = "Ad";
             // 
